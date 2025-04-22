@@ -18,3 +18,4 @@ lazy val root = (project in file("."))
 
 libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.19" % Test
+libraryDependencies += "joda-time" % "joda-time" % "2.10.14"
