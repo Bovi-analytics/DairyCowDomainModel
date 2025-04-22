@@ -3,10 +3,9 @@ import com.bovianalytics.dcdm.AnimalGender._
 import com.bovianalytics.dcdm.BreedPart
 import org.joda.time.LocalDate
 import org.joda.time.format.DateTimeFormat
-
 import scala.collection.mutable.ListBuffer
 
-// This is the main object to be able to run a small tryout of the Cow class.
+// This is a test object to be able to run a small tryout of the Cow class.
 object CowTest {
 
 
