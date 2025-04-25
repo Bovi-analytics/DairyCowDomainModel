@@ -6,8 +6,13 @@ import org.joda.time.LocalDate
 import org.joda.time.format.DateTimeFormat
 import scala.collection.mutable.ListBuffer
 
+/**
+ * This is a test object to be able to run a small tryout of the Herd class.
+ * @author Meike
+ * @todo add events
+ * @version 1.0
+ * */
 
-// This is a test object to be able to run a small tryout of the Herd class.
 object HerdTest {
 
   def main(args: Array[String]): Unit = {
@@ -30,7 +35,8 @@ object HerdTest {
       geneticDamIdentifier = Some(890),
       sireEarTag = Some("NL3003"),
       sireIdentifier = Some(345),
-      breed = ListBuffer(breedPart1, breedPart2) // Mixed breed (Holstein/Jersey)
+      breed = ListBuffer(breedPart1, breedPart2), // Mixed breed (Holstein/Jersey)
+
     )
 
     val cow2 = Cow(

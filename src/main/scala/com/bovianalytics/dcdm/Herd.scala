@@ -5,7 +5,9 @@ object Herd {
 
   /**
    * Represents a herd; group of cattle at the same geospatial location, one farm can therefore have multiple herds depending on if they house cattle at multiple locations.
-   * herdIdentifies is mandatory to fill in
+   * herdIdentifier is mandatory to fill in
+   *
+   * @constructor Create a new herd with a herdIdentifier and an embedded list of cows.
    * @param herdIdentifier Unique identifier for the herd from the MMMooOgle system.
    * @param name Name of the herd as given by the farmer.
    * @param sourceId Unique identifier for the data source from the MMMooOgle system.
@@ -20,10 +22,14 @@ object Herd {
    * @param countryCode Alpha-2-code of ISO 3166-1 for the country, see https://en.wikipedia.org/wiki/ISO_3166-1.
    * @param latitude A geographic coordinate that specifies the north-south position of the herd on the surface of the Earth.
    * @param longitude A geographic coordinate that specifies the east-west position of the herd on the surface of the Earth.
-   * @param email email address of the farmer.
-   * @param mobilePhoneNumber mobile phone number of the farmer.
-   * @param telephoneNumber telephone number of the farmer.
+   * @param email Email address of the farmer.
+   * @param mobilePhoneNumber Mobile phone number of the farmer.
+   * @param telephoneNumber Telephone number of the farmer.
    * @param cows List of all the cows that are in the herd
+   * @author Meike van Leerdam
+   * @version 1.0
+   * @todo Add more functionality.
+   * @see See [[https://]] for more information.
    */
 
     case class Herd(

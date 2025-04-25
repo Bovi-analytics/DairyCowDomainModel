@@ -1,15 +1,17 @@
 package com.bovianalytics.dcdm
-
+import com.bovianalytics.dcdm.TimelineEvent._
 import org.joda.time.LocalDate
+
 
 
 object Cow {
 
   /** A class to represent a ''Cow''.
    *
-   * Specify at least an `AnimalIdentifier`, `Gender`, and `BirthDate` when creating a new `Cow`   *
+   * Specify at least an `AnimalIdentifier`, `Gender`, and `BirthDate` when creating a new `Cow`
+   * Every cow needs at least one event in their timeline.
    *
-   * @constructor Create a new cow with an `AnimalIdentifier`, `Gender`, and `Events`.
+   * @constructor Create a new cow with an `AnimalIdentifier`, `Gender`, and `BirthDate`.
    * @param animalId         The primary and unique animals's identifier within the entire herd in MmmooOgle. "
    *                         It can be possible that animals in different datasources exist with different identifiers.
    * @param gender The animal's gender (male/female), based upon ICAR Enumeration for sex of animal using species-independent English names. Includes neuter/cryptorchid variations.
@@ -39,8 +41,9 @@ object Cow {
    * @param sireEarTag The animal's sire ear tag number.
    * @param breed The animal's breed expressed in a list of `BreedPart`. When UNKNOWN, the default is put as 99% HOL.
    * @param bornOnFarm Boolean indicating if the animal was born on the herd linked to the herd identifier.
-   * @author Miel Hostens
-   * @version 1.0
+   * @param timelineEvents List of all the events belonging to the cow, events must be part of the predifined events with the predefined metadata.
+   * @author Miel Hostens + Meike
+   * @version 2.0
    * @todo Add more functionality.
    * @see See [[https://]] for more information.
    */
@@ -65,7 +68,8 @@ object Cow {
     recipientDamIdentifier: Option[Int] = None,
     breed: scala.collection.mutable.ListBuffer[BreedPart] =
       scala.collection.mutable.ListBuffer(new BreedPart("HOL", 0.99)), //set to be mutable so we can assign the correct breed for animals belonging to multiple breeds in proportions later on
-    bornOnFarm: Option[Boolean] = None
+    bornOnFarm: Option[Boolean] = None,
+    timelineEvents: List[TimelineEvent[_ <: TimelineEventMetadata]] = Nil //Wildcard to handle different metadata types
                 )
 
 }

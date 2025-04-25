@@ -4,11 +4,12 @@ package com.bovianalytics.dcdm
 //Elements for the case class cow
 
 /** sealed trait for sex of animal using species-independent English names. Includes neuter/cryptorchid variations, defined by ICAR
-  * @author Miel Hostens
+  * @author Miel Hostens + Meike
   * @groupname Enums
-  * @version 1.0
+  * @version 2.0
   * @see See [[https://github.com/adewg/ICAR/blob/ADE-1/enums/icarAnimalGenderType.json]].
   */
+
 sealed trait AnimalGender
 object AnimalGender {
   case object Female extends AnimalGender

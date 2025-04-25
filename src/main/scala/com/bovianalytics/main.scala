@@ -4,7 +4,7 @@ object Main {
 
   /** Represents the main class.
    *
-   * Prints 'Hello world'
+   * Prints a congratulatory message if everything works fine
    */
 
   def main(args: Array[String]): Unit = {
