@@ -12,7 +12,12 @@
 [0m[[0m[0mdebug[0m] [0m[0m	-doc-source-url[0m
 [0m[[0m[0mdebug[0m] [0m[0m	https://bovi-analytics.com/src/docs/€{FILE_PATH}.scala[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\mmh292\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.16\scala-library-2.13.16.jar;C:\Users\mmh292\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.16\scala-reflect-2.13.16.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\mmh292\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.16\scala-library-2.13.16.jar;C:\Users\mmh292\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.16\scala-reflect-2.13.16.jar;C:\Users\mmh292\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:/Users/mmh292/VersionControlledProjects/DairyCowDomainModel/src/main/scala/com/bovianalytics/main.scala[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:/Users/mmh292/VersionControlledProjects/DairyCowDomainModel/src/main/scala/com/bovianalytics/dcdm/Cows.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:/Users/mmh292/VersionControlledProjects/DairyCowDomainModel/src/main/scala/com/bovianalytics/dcdm/Cow.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:/Users/mmh292/VersionControlledProjects/DairyCowDomainModel/src/main/scala/com/bovianalytics/dcdm/Enums.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:/Users/mmh292/VersionControlledProjects/DairyCowDomainModel/src/main/scala/com/bovianalytics/dcdm/Herd.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:/Users/mmh292/VersionControlledProjects/DairyCowDomainModel/src/main/scala/com/bovianalytics/dcdm/Lactation.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:/Users/mmh292/VersionControlledProjects/DairyCowDomainModel/src/main/scala/com/bovianalytics/dcdm/TimeLineConstructor.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:/Users/mmh292/VersionControlledProjects/DairyCowDomainModel/src/main/scala/com/bovianalytics/dcdm/TimelineEvent.scala[0m
 [0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
