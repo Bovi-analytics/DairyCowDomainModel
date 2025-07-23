@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DairyCowDomainModel.iml" filepath="$PROJECT_DIR$/.idea/modules/DairyCowDomainModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DairyCowDomainModel-build.iml" filepath="$PROJECT_DIR$/.idea/modules/DairyCowDomainModel-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DairyCowDomainModel.DairyCowDomainModel-build.iml" filepath="$PROJECT_DIR$/.idea/modules/DairyCowDomainModel.DairyCowDomainModel-build.iml" />
     </modules>
   </component>
