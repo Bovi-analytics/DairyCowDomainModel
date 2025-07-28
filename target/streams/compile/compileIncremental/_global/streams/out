@@ -1,0 +1,30 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 6 products, 2 sources, 1 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/com/bovianalytics/dcdm/Herd.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/Enums.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/Cow.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/Lactation.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/TimelineEvent.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/TimeLineConstructor.scala, ${BASE}/src/main/scala/com/bovianalytics/main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/com/bovianalytics/dcdm/Herd.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/Lactation.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/TimelineEvent.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/TimeLineConstructor.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/Cow.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/Enums.scala), removed = Set(${BASE}/src/main/scala/com/bovianalytics/dcdm/Cows.scala), changed = Set(${BASE}/src/main/scala/com/bovianalytics/main.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set(${BASE}/src/main/scala/com/bovianalytics/dcdm/Cows.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(${BASE}/src/main/scala/com/bovianalytics/dcdm/Herd.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/Enums.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/Cow.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/Lactation.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/TimelineEvent.scala, ${BASE}/src/main/scala/com/bovianalytics/dcdm/TimeLineConstructor.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/com/bovianalytics/main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(com.bovianalytics.dcdm.Cows.Cow, com.bovianalytics.dcdm.Cows, com.bovianalytics.Main)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mall 7 sources are invalidated[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: com.bovianalytics.dcdm.Cows.Cow, com.bovianalytics.dcdm.Cows, com.bovianalytics.Main[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all sources: number of invalidated sources > 50.0 percent of all sources[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 7 Scala sources to C:\Users\mmh292\VersionControlledProjects\DairyCowDomainModel\target\scala-2.13\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: C:\Users\mmh292\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala2-sbt-bridge\2.13.16\scala2-sbt-bridge-2.13.16.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7233f8f3 for Scala compiler version 2.13.16[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\mmh292\VersionControlledProjects\DairyCowDomainModel\target\scala-2.13\classes;C:\Users\mmh292\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.16\scala-library-2.13.16.jar;C:\Users\mmh292\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.16\scala-reflect-2.13.16.jar;C:\Users\mmh292\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.14\joda-time-2.10.14.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 11.2674266 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
